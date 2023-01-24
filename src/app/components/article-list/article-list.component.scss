@@ -1,0 +1,15 @@
+.article-list {
+  margin-bottom: 1rem;
+  font-size: 1.275rem;
+
+  article {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    .article-subtitle {
+      font-size: 0.75rem;
+      color: #000000b3;
+    }
+  }
+}

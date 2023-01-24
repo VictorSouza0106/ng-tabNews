@@ -1,0 +1,14 @@
+<div class="article-list" *ngFor="let article of articles; let i = index">
+  <div style="display: grid; gap: 0.5rem; grid-template-columns: 24px 1fr">
+    <div style="text-align: right">{{ i }}.</div>
+    <div>
+      <article>
+        <div>{{ article.title }}</div>
+        <div class="article-subtitle">
+          {{ article.tabcoins }} Tabcoin * {{ article.owner_username }} *
+          {{ article.published_at | timeDiff }}
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
