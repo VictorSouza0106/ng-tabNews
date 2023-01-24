@@ -1,0 +1,23 @@
+nav {
+  background-color: #24292f;
+  color: #fff;
+  padding: 16px;
+
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+  ul {
+    display: flex;
+    gap: 32px;
+  }
+}
+
+.nav-item:hover {
+  color: #ffffffb3;
+  cursor: pointer;
+}
+
+.selected-route {
+  text-decoration: underline;
+}
